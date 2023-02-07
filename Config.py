@@ -46,4 +46,4 @@ class Config(object):
     DEF_WATER_MARK_FILE = "@SK_MoviesOffl"
 
     # Sql Database url
-    DB_URI = os.environ.get("DATABASE_URL", "")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Test:1234@cluster0.2bzsp0q.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
